@@ -90,7 +90,8 @@
                                     <goal>native-image</goal>
                                 </goals>
                                 <configuration>
-                                    <enableHttpUrlHandler>true</enableHttpUrlHandler>
+					<enableHttpUrlHandler>true</enableHttpUrlHandler>
+					<uberJar>true</uberJar>
                                 </configuration>
                             </execution>
                         </executions>
